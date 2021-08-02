@@ -1,23 +1,23 @@
-<nav class="navbar navbar-expand navbar-dark bg-dark">
-  <div class="container-fluid">
-    
-      <div class="d-flex flex-column">
-        <a class="navbar-brand text-danger" routerLink="">Dashboard</a>
-        
-        <div class="navbar-nav d-flex flex-column">
-       
-          <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" aria-current="page" routerLink="cars"
-              >Montant Total des ventes</a>
-          </li>
+<nav class="navbar  navbar-dark bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <div class="d-flex flex-column">
+          <a class="navbar-brand text-danger" routerLink="">Dashboard</a>
 
-          <li class="nav-item d-flex flex-column" routerLinkActive="active">
-            <a class="nav-link" routerLink="drivers">Nombre de commandes</a>
-          </li>
-      
+          <div class="navbar-nav d-flex flex-column">
+            <li class="nav-item" routerLinkActive="active">
+              <a class="nav-link" aria-current="page" routerLink="cars"
+                >Montant Total des ventes</a
+              >
+            </li>
+
+            <li class="nav-item d-flex flex-column" routerLinkActive="active">
+              <a class="nav-link" routerLink="drivers">Nombre de commandes</a>
+            </li>
+          </div>
+        </div>
       </div>
     </div>
-</div>
-
-
+  </div>
 </nav>

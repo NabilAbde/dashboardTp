@@ -14,6 +14,7 @@ import { TauxPanierLostComponent } from './taux-panier-lost/taux-panier-lost.com
 import { TauxVisitPanierNewComponent } from './taux-visit-panier-new/taux-visit-panier-new.component';
 import { ConversionCommandesComponent } from './conversion-commandes/conversion-commandes.component';
 import { TotalProductssellsComponent } from './total-productssells/total-productssells.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { TotalProductssellsComponent } from './total-productssells/total-product
     TauxPanierLostComponent,
     TauxVisitPanierNewComponent,
     ConversionCommandesComponent,
-    TotalProductssellsComponent
+    TotalProductssellsComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
