@@ -1,0 +1,14 @@
+body {
+    margin :0;
+    padding : 0;
+}
+
+
+
+
+.navbar {
+    width: fit-content;
+    height: fit-content;
+    font-size: medium;
+    text-decoration: none;
+}

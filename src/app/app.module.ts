@@ -15,6 +15,7 @@ import { TauxVisitPanierNewComponent } from './taux-visit-panier-new/taux-visit-
 import { ConversionCommandesComponent } from './conversion-commandes/conversion-commandes.component';
 import { TotalProductssellsComponent } from './total-productssells/total-productssells.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     TauxVisitPanierNewComponent,
     ConversionCommandesComponent,
     TotalProductssellsComponent,
-    HomePageComponent
+    HomePageComponent,
+    FourOhFourComponent
   ],
   imports: [
     BrowserModule,

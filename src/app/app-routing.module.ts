@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { MontantTotalVentesComponent } from './montant-total-ventes/montant-total-ventes.component';
 import { NbrCommandesComponent } from './nbr-commandes/nbr-commandes.component';
@@ -21,7 +22,9 @@ const routes: Routes = [
   {path: "tauxabandon" , component : TauxPanierLostComponent},
   {path: "tauxreccommandes" , component : TauxRecComClientsComponent},
   {path: "tauxvisitepannier" , component : TauxVisitPanierNewComponent},
-  {path: "totaltproduits" , component : TotalProductssellsComponent}
+  {path: "totaltproduits" , component : TotalProductssellsComponent},
+  {path: "not-found" , component : FourOhFourComponent},
+  {path: "**" , redirectTo: "not-found"}
   
 ];
 
