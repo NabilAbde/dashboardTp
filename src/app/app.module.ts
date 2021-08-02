@@ -19,6 +19,7 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 import { VentejourComponent } from './ventejour/ventejour.component';
 import { VentemoisComponent } from './ventemois/ventemois.component';
 import { VenteAnneeComponent } from './vente-annee/vente-annee.component';
+import { TopNavbarComponent } from './top-navbar/top-navbar.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { VenteAnneeComponent } from './vente-annee/vente-annee.component';
     FourOhFourComponent,
     VentejourComponent,
     VentemoisComponent,
-    VenteAnneeComponent
+    VenteAnneeComponent,
+    TopNavbarComponent
   ],
   imports: [
     BrowserModule,
