@@ -16,6 +16,9 @@ import { ConversionCommandesComponent } from './conversion-commandes/conversion-
 import { TotalProductssellsComponent } from './total-productssells/total-productssells.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
+import { VentejourComponent } from './ventejour/ventejour.component';
+import { VentemoisComponent } from './ventemois/ventemois.component';
+import { VenteAnneeComponent } from './vente-annee/vente-annee.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
     ConversionCommandesComponent,
     TotalProductssellsComponent,
     HomePageComponent,
-    FourOhFourComponent
+    FourOhFourComponent,
+    VentejourComponent,
+    VentemoisComponent,
+    VenteAnneeComponent
   ],
   imports: [
     BrowserModule,

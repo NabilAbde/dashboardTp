@@ -1,14 +1,13 @@
 body {
-    margin :0;
-    padding : 0;
+  margin: 0;
+  padding: 0;
 }
 
-
-
-
 .navbar {
-    width: fit-content;
-    height: fit-content;
-    font-size: medium;
-    text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+  font-size: medium;
+}
+ul li {
+  list-style-type: none;
 }
