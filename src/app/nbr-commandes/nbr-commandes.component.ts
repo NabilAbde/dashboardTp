@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConnexionApiService } from '../services/connexion-api.service';
 
 @Component({
   selector: 'app-nbr-commandes',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nbr-commandes.component.css']
 })
 export class NbrCommandesComponent implements OnInit {
+  
+  totalorders:any;
 
-  constructor() { }
+
+  constructor(private connexionApi: ConnexionApiService) { }
 
   ngOnInit(): void {
+    this.connexionApi.getOrders().subscribe(data =>{this.totalorders = data['hydra:member']});
+
   }
 
 }

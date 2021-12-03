@@ -20,6 +20,7 @@ import { VentejourComponent } from './ventejour/ventejour.component';
 import { VentemoisComponent } from './ventemois/ventemois.component';
 import { VenteAnneeComponent } from './vente-annee/vente-annee.component';
 import { TopNavbarComponent } from './top-navbar/top-navbar.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,9 @@ import { TopNavbarComponent } from './top-navbar/top-navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
